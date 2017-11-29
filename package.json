@@ -1,0 +1,39 @@
+{
+	"name": "vscode-zephyr-theme",
+	"displayName": "Zephyr Theme",
+	"description": "Zephyr Theme for Visual Studio Code",
+	"version": "0.1.0",
+	"publisher": "atrX",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.17.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Zephyr",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Zephyr-color-theme.json"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/atrX/vscode-zephyr-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/atrX/vscode-zephyr-theme/issues"
+	},
+	"homepage": "https://github.com/atrX/vscode-zephyr-theme/blob/master/README.md",
+	"keywords": [
+		"vscode",
+		"theme",
+		"zephyr",
+		"dark"
+	],
+	"author": "Jordy Rymenants <jordy.rymenants@outlook.com> (https://jordyrymenants.com)",
+	"license": "MIT"
+}
